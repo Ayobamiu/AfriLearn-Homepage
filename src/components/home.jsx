@@ -11,6 +11,17 @@ import mercedes from "../images/mercedes.svg";
 import eventbrite from "../images/eventbrite.svg";
 import booking from "../images/booking.svg";
 import transform from "../images/transform.jpg";
+import photography from "../images/photography.jpg";
+import personal_dev from "../images/personal_dev.jpg";
+import music from "../images/music.jpg";
+import marketing from "../images/marketing.jpg";
+import it_and_dev from "../images/it_and_dev.jpg";
+import interview from "../images/interview.jpg";
+import instructor from "../images/instructor.jpg";
+import for_biz from "../images/for_biz.jpg";
+import dev from "../images/dev.jpg";
+import design from "../images/design.jpg";
+import business from "../images/business.jpg";
 
 class Home extends Component {
   state = {};
@@ -400,7 +411,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={design}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -412,7 +423,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={dev}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -424,7 +435,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={marketing}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -436,7 +447,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={it_and_dev}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -448,7 +459,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={personal_dev}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -460,7 +471,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={photography}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -472,7 +483,7 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={music}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
@@ -484,13 +495,13 @@ class Home extends Component {
             <div className="home-section-top-categories-list-category">
               <div className="home-section-top-categories-list-category-image">
                 <img
-                  src={interior}
+                  src={business}
                   alt=""
                   className="home-section-top-categories-list-category-image-img"
                 />
               </div>
               <div className="home-section-top-categories-list-category-text">
-                Interior
+                Business
               </div>
             </div>
           </div>
@@ -500,7 +511,7 @@ class Home extends Component {
           <div className="home-section-become-an-instructor-media">
             <div className="home-section-become-an-instructor-media-image">
               <img
-                src={profile}
+                src={instructor}
                 alt=""
                 className="home-section-become-an-instructor-media-image-img"
               />
@@ -561,7 +572,7 @@ class Home extends Component {
           <div className="home-section-become-an-instructor-media">
             <div className="home-section-become-an-instructor-media-image">
               <img
-                src={profile}
+                src={for_biz}
                 alt=""
                 className="home-section-become-an-instructor-media-image-img"
               />
@@ -571,7 +582,7 @@ class Home extends Component {
 
         <section className="home-section-transform-your-life">
           <div className="home-section-transform-your-life-media">
-              <img src={transform} alt=""/>
+              <img src={interview} alt=""/>
               <i className="fa fa-play"></i>
           </div>
           <div className="home-section-transform-your-life-text">
